@@ -1,0 +1,180 @@
+header div{
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+   color:red;
+    font-size:20px;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 9px 5px red;
+
+    }
+    .one{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-end;
+        position: absolute;
+        right: 10px;
+    }
+    .two{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: flex-end;
+        position:absolute;
+        left:10px;
+        margin-top:50px;
+    }
+   ul,li,a{
+        background-color: black;
+        list-style-type: none;
+        color:white;
+        display:flex;
+        font-family: "Kumar One", serif;
+  font-weight:10;
+  font-style: normal;
+  font-size: 15px;
+  justify-content: space-around;
+  cursor:grab;
+  text-shadow:2px 2px 2px red;
+  
+  }
+a:hover{
+    color:red;
+}
+figure{
+
+    background-color:black;
+    display:flex;
+flex-direction: row;
+margin:0px;
+height:300px;
+justify-content: center;
+padding-left: 400px;
+box-shadow: 10px 5px red;
+
+}
+figure h2{
+    display:flex;
+    flex-direction: row;
+    color:white;
+    font-family: "Faster One", serif;
+    font-weight: 400;
+    font-style: normal;
+  padding-left:50px;
+  justify-content: flex-end;
+  align-items: center;
+  padding:20px;
+  margin-top:20px;
+  word-spacing: 25px;
+  text-shadow: 2px whitesmoke;
+  font-size:50px;
+}
+.first{
+    position:absolute;
+    left:250px;
+    width:300px;
+  } 
+header{
+  background-color: black;
+  
+}
+main{
+    background-color: black;
+    color:white;
+}
+.heading{
+    font-family: "Edu AU VIC WA NT Arrows", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    color:red;
+    text-shadow: 5px 5px 5px white;
+    font-size:20px;
+    
+}
+.container div{
+    width:25%;
+    border-color:red;
+    border-style: solid;
+   padding:10px;
+    
+}
+.container{
+    display: flex;
+    text-align:center;
+    color:white;
+    background-color: black;
+    
+}
+.container li{
+  text-wrap: wrap;
+  background-color: black;
+  width:25%;
+  display:flex;
+  text-transform: lowercase;
+  color:white;
+  text-align: center;
+  flex-direction: row;
+  padding-left:80px;
+}
+.container aside{
+    color:white;
+}
+.container h2,h3{
+    color:red;
+}
+.container div:hover{
+    color:yellow;
+}
+.last h2,caption{
+    color:white;
+}
+.last table{
+    color:white;
+    border-width: 3px;
+    border-color:red;
+    padding:10px;
+    margin:10px;
+    border-width:5px;
+    
+    
+}
+.last{
+    background-color: black;
+    border-style: solid;
+    border-color:red;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top:20px;
+    
+    
+}
+body{
+    background-color: black;
+    box-shadow: 10px 10px red;
+}
+.last h2{
+    padding-right: 200px;
+   font-family: "Agu Display", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-variation-settings:
+     "MORF" 18;
+}
+.copy{
+    color:white;
+    font-weight: 700;
+text-shadow: 1px 1px red;
+position:sticky;
+bottom: 20px;
+background-color: black;
+display:inline-block;
+}
+ @import "style1.css";
+  

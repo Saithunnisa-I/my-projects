@@ -1,0 +1,239 @@
+.hours{
+    background-color: rgb(172, 198, 228);
+    font-family: "Fondamento", serif;
+    font-weight: 400;
+    font-style: italic;
+    padding:15px;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hours li,ul{
+    display:flex;
+    color:black;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+.hours li{
+    margin-left:110px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.alignm div{
+    width:50%;
+    display:flex;
+}
+div{
+    display:flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    
+}
+div main{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-family: "Bungee Inline", serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+div figure{
+    border-style:solid;
+    border-width: 5px;
+    height:300px;
+    border-color: black;
+    height:300px;
+}
+.alignm figcaption{
+    font-family: "Charmonman", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:larger;
+    display:flex;
+    justify-content: flex-end;
+    text-shadow: 2px 2px white;
+    
+}
+body{
+background-color: rgb(172, 198, 228);
+}
+footer a{
+    border-style: solid;
+    color:black;
+    background-color: white;
+    border-width: 4px;
+    font-style: bold;
+    padding:3px;
+}
+footer{
+    margin-top: 60px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-left: 600px;
+}
+.items{
+    background-color: rgb(26, 32, 37);
+    color:white;
+    display:block;
+    font-family: "Bungee Inline", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding:10px;
+}
+.box ul{
+    display:block;
+    flex-direction: row;
+    justify-content: center;
+    margin:auto;
+    position:absolute;
+    top:2px;
+    left:75%;
+    background:linear-gradient(135deg,rgba(255,255,255,0.1),rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+   border:1px solid rgba(255,255,255,0.19);
+   box-shadow: 0 8px 32px 0 rgba(0,0,0,37);
+   margin-top:100px;
+   margin-bottom: 150px;
+   margin-left: 50px;
+   
+}
+
+   .box li{
+      padding:45px;
+      font-family: "Akaya Kanadaka", serif;
+      font-weight: 800;
+      font-style: normal;
+      font-size: larger;
+}
+body header{
+   background-color:rgb(145, 211, 211);
+}
+.pic{
+    position:relative;
+    top:30px;
+    right:50px;
+    height: 200px;
+    border-style:groove;
+   border-color:rgb(29, 29, 103);
+   border-top-left-radius: 50px;
+   
+}
+.pic1{
+    border-style:groove;
+    border-color:rgb(29, 29, 103);
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 5px 5px;
+}
+.bag{
+   margin-left:28%;
+}
+.overall{
+    background-color: white;
+}
+.backy h2{
+    color:white;
+    font-family: "Bungee Inline", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+
+}
+fieldset{
+    border-color: red;
+    background: aqua;
+    box-shadow: 10px 10px red;
+}
+fieldset legend{
+    font-family: "Kumar One", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:yellow;
+}
+fieldset input{
+     width:25%;
+     height: 50%;
+     border-radius: 20px;
+     margin:10px;
+     padding:10px;
+}
+fieldset textarea{
+      width:25%;
+     height:50%;
+     border-radius: 20px;
+     margin-left: 40%;
+}
+fieldset label{
+    margin-left:25%;
+    font-family: "Akaya Kanadaka", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button{
+    color:black;
+    font-family: "Akaya Kanadaka", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: white;
+    box-shadow: 2px 2px white;
+    margin-top:5px;
+    border-radius: 50px;
+}
+.end h2{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    flex-direction: row;
+    font-family: "Creepster", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:3em;
+  color:white;
+}
+iframe{
+    border-style: groove;
+    border-width: 10px 9px;
+    border-color: aqua;
+    margin-left: 35%;
+}
+address{
+    margin-left: 35%;
+    margin-top:5px;
+    font-family: "Akaya Kanadaka", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.final h2{
+    font-family: "Creepster", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:3em;
+    color:white;
+    padding-left: 20px;
+}
+.final2 a{
+    font-family: "Shojumaru", serif;
+    font-weight: 400;
+    font-style: normal;
+  color:aqua;
+  padding-left: 30%;
+  width:100%;
+  font-size: larger;
+}
+.back a{
+    border-style: groove;
+    border-radius: 50%;
+    border-color: aqua;
+    color:black;
+    padding:5px;
+    background-color: aliceblue;
+}
+.overall{
+    background-color: black;
+}
